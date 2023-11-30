@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    @font-face {
+        font-family: 'Petala W01 Bold';
+        src: url(/font/Petala\ W01\ Bold.ttf);
+    }
+
+    *{
+        font-family: 'Petala W01 Bold';
+    }
+
+    body{
+        height: 0%;
+    margin: 0;
+    padding: 0;
+    }
+
+    .bck{
+        position: absolute;
+        background-image: linear-gradient(to bottom,  rgba(27,27,27,0) 0%,rgba(27,27,27,1) 60%,rgba(27,27,27,1) 100%); 
+
+
+    }
+
+.center-fit{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    position:relative;
+  z-index:-1;
+  display:block;
+    
+    
+}
+
+.gamepass{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    width: 280px;
+    border: 1px solid red;
+}
+
+.game-pass{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+    /*border: 1px solid red;*/
+}
+
+.logo{
+    position: relative;
+    display: block;
+    margin-top: 0%;
+    margin-left: 65%;
+    width: 50%;
+    height: 250px;
+    width: 320px;
+    /*border: 1px solid red;*/
+}
+
+.logo-game{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 5%;
+}
+
+.logo-banner{
+    max-width: 25%;
+    max-height: 25%;
+    margin-top: -50%;
+    margin-left: 80%;
+    margin-bottom: 5%;
+}
+
+.discover-text{
+    position: relative;
+    display: block;
+    margin-left: 8.2%;
+    margin-top: 0%;
+    width: 10%;
+    height: 50px;
+    left: 0px;
+    /*border: 1px solid red;*/
+    color: white;
+
+}
+
+.tiles{
+    position: relative;
+    border: 1px solid red;
+    max-width: 100%;
+    max-height: 100%;
+    
+    margin-left: 120px;
+    margin-right: 120px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tile{
+    position: relative;
+    display: block;
+    width: 170px;
+    height: 105px;
+    background-color: rgb(49, 49, 49);
+
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid red;
+    cursor: pointer;
+
+    
+}
+.gptiles{
+    position: absolute;
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 18px;
+    left:24px;
+    border: 1px solid red;
+}
+
+</style>
+<body>
+    <div class="bck">
+        <img class= "center-fit" src="/images/background/skyrim.jpg" alt="">
+
+        
+    </div>
+
+    <div class="gamepass">
+        <img class ="game-pass" src="/images/logo/xbox-game-pass-logo-white-5f21ba36345e2.png" alt="">
+    </div>
+
+    <div class="logo">
+        <img class="logo-banner" src="/images/logo/eaplaybanner.png" alt="">
+        <img class ="logo-game" src="/images/logo/tes5logo.png" alt="">
+        
+    </div>
+
+    <div class="discover-text">
+        <p>Discover</p>
+    </div>
+
+    <div class = "tiles">
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/xgswhite.png" alt="">
+            <a href="/bethesda.html"></a>
+        </div>
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/bethesdawhite.png" alt="">
+
+        </div>
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/actvwhite.png" alt="">
+
+        </div>
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/blizwhite.png" alt="">
+
+        </div>
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/idxboxwhite.png" alt="">
+
+        </div>
+        <div class="tile">
+            <img class="gptiles" src="./images/logo/eaplaywhite.png" alt="">
+        </div>
+
+    </div>
+
+
+</body>
+</html>
